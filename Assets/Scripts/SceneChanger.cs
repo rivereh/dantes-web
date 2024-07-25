@@ -13,5 +13,4 @@ public class SceneChanger : MonoBehaviour
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
         }
     }
-
 }
