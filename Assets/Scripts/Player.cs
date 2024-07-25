@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     Animator anim;
 
     [SerializeField] float speed = 5f;
-
+    
 
 
     void Start()
