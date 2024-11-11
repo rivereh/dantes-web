@@ -18,12 +18,13 @@ public class Player : MonoBehaviour
 
     bool sprinting;
 
+    Vector2 initialLocalScale;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponentInChildren<Animator>();
-
+        initialLocalScale = transform.localScale;
     }
 
     void Update()
@@ -51,11 +52,11 @@ public class Player : MonoBehaviour
         }
     }
 
-    void FlipSprite()
+    public void FlipSprite()
     {
         if (HasHorizontalSpeed())
         {
-            transform.localScale = new Vector2(Mathf.Sign(rb.velocity.x), 1f);
+            transform.localScale = new Vector2(initialLocalScale.x * Mathf.Sign(rb.velocity.x), initialLocalScale.y);
         }
     }
 

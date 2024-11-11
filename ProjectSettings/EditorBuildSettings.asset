@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/bedroom.unity
     guid: e721c4063110df34883e1c45b3ae4933
+  - enabled: 1
+    path: Assets/Scenes/boardroom.unity
+    guid: 8863fb25ad7b0994dac06f65cdc5aed1
+  - enabled: 1
+    path: Assets/Scenes/porch.unity
+    guid: 0bee998e08737424fbcd80c98cbab490
+  - enabled: 1
+    path: Assets/Scenes/shed.unity
+    guid: 97760e62f41bef14a8516412d98cff17
   m_configObjects: {}
