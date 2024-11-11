@@ -808,7 +808,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 960562210}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d448dba4a498d8e4fb8a47e36c78721b, type: 3}
   m_Name: 
@@ -1366,7 +1366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8632035883344538177, guid: 848b7308e7daa284fb58e504ab4d87da, type: 3}
       propertyPath: m_Name
-      value: SceneChanger
+      value: boardroom
       objectReference: {fileID: 0}
     - target: {fileID: 9030669269522087968, guid: 848b7308e7daa284fb58e504ab4d87da, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1472,6 +1472,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  walkSpeed: 5
+  runSpeed: 10
 --- !u!4 &2021433472
 Transform:
   m_ObjectHideFlags: 0
